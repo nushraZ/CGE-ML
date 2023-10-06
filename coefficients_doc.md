@@ -14,29 +14,29 @@ The type of hazard simulation associated with the coefficients.
  Indicates whether the model is a main model (predicting total economic impact) or a sub-model (predicting economic impact for a specific sector-Puma combination).
 
 - **Model Name:** (Column D)
-The outcome variable or target variable for the model, representing what is being predicted.
+The outcome variable or target variable for the model, represents what is being predicted.
 
 (Column E and onwards are the coefficients).
 
 
-** The first row will typically be the main model row, and then onwards we have the sectorPuma models. This is true for every economic factors (DDS, DY, MIGT, DFFD).
+** The first row will typically be the main model row, and then onwards we have the sectorPuma models. This is true for every economic factor (DDS, DY, MIGT, DFFD).
 
 ## Coefficients Format and Interpretation
 
 The coefficients are organized in columns, and there are 48 coefficients for every model. These coefficients indicate how much each predictor variable influences the outcome variable. 
 **Magnitude and Sign of the coefficients**: The magnitude represents the strength of association between the corresponding predictor and target variable. A stronger magnitude (positive or negative) means a stronger influence. And, the sign indicates the direction of influence.
 
- The coefficient value for a specific sector in the model also helps us estimate the impact on the overall economic indicator (totDDS – in case of main model or “GoodsA” (a sector) – in case of sub model) for that sector
+ The coefficient value for a specific sector in the model also helps us estimate the impact on the overall economic indicator (totDDS – in case of the main model or “GoodsA” (a sector) – in case of the sectorPuma model) for that sector
 
 **Naming Conventions**
-Each sector should be named as name of sector followed by the Puma region it belongs to. Here are a few examples: 
-Goodsj 
-Tradej 
-Otherj 
-HS1j (Housing Services 1) 
-HS2j (Housing Services 2) 
-HS2j (Housing Services 3) 
-Here, j represents the Puma regions: A, B, …, H.  
+ Each sector should be named as the name of the sector followed by the Puma region it belongs to. Here are a few examples: 
+  - Goodsj 
+  - Tradej 
+  - Otherj 
+  - HS1j (Housing Services 1) 
+  - HS2j (Housing Services 2) 
+  - HS2j (Housing Services 3) 
+ Here, j represents the Puma regions: A, B, …, H.  
 
 
 
