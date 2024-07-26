@@ -30,4 +30,4 @@
 
 The testbeds Seaside, Mobile, SLC all have sector_specific models with R-squares higher than 90%. 
 
-Note: If I get better results on these models, I will update the list. 
+Note: If I get better results on these models, I will update the list and the coefficient files. 
